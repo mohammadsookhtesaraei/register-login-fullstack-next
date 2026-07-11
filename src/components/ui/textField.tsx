@@ -20,6 +20,7 @@ const TextField = ({
         value={value}
         {...props}
         className="text_input"
+       
       />
     </div>
   );
