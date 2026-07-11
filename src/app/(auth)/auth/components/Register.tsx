@@ -7,7 +7,7 @@ const Register = () => {
       <form className="w-full space-y-8 p-6 border rounded-xl border-gray-400/30">
        <TextField label="email"/>
        <TextField label="password"/>
-      <Btn>send</Btn>
+       <Btn className="w-full" variant="primary" type="submit">send</Btn>
       </form>
     </div>
   )

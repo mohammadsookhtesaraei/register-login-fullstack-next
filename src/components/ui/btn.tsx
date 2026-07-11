@@ -18,9 +18,17 @@ const Btn = ({
   variant = "primary",
   type = "button",
   children,
+  className,
   ...props
 }: BtnProps) => {
-  const clasess = clsx("btn", { [btnStyle[variant]]: variant });
+
+  
+  const clasess = clsx(
+    "btn", 
+    { [btnStyle[variant]]: variant },
+    className
+  );
+
   return (
     <button className={clasess} type={type} {...props}>
       {children}
