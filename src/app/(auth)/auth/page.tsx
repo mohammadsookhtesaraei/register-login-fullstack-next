@@ -16,7 +16,7 @@ const Auth = () => {
     }
   };
 
-  return <div>
+  return <div className="flex justify-center">
     {authRender(step)}
   </div>;
 };

@@ -1,6 +1,15 @@
+import Btn from "@/components/ui/btn"
+import TextField from "@/components/ui/textField"
+
 const Register = () => {
   return (
-    <div>Register</div>
+    <div className="max-w-sm w-full">
+      <form className="w-full space-y-8 p-6 border rounded-xl border-gray-400/30">
+       <TextField label="email"/>
+       <TextField label="password"/>
+      <Btn>send</Btn>
+      </form>
+    </div>
   )
 }
 export default Register
