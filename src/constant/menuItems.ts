@@ -6,7 +6,7 @@ type TMenuLink = {
     children: string;
 }
 
-const menuLink: TMenuLink[] = [
+export const menuLink: TMenuLink[] = [
     { id: 1, path: "/", children: "home" },
     { id: 2, path: "/auth", children: "login/register" }
 ];
